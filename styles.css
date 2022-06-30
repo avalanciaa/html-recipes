@@ -1,0 +1,53 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+}
+
+#links {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 45;
+
+}
+
+#different-recipes {
+    text-decoration: underline;
+    color:blue;
+
+}
+
+.gulabimages {
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+  }
+  
+  .gulab::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  .poundimages {
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+  }
+  
+  .pound::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
